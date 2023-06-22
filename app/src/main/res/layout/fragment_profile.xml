@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".fragment.ProfileFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/foto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/tiara" />
+
+        <TextView
+            android:id="@+id/txt_nama"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/foto"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:elevation="12dp"
+            android:padding="20dp"
+            android:textColor="#FFFFFF"
+            android:text="@string/nama"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txt_nim"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            android:elevation="12dp"
+            android:layout_below="@id/txt_nama"
+            android:textColor="#FFFFFF"
+            android:text="@string/nim"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txt_kelas"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            android:elevation="12dp"
+            android:layout_below="@id/txt_nim"
+            android:textColor="#FFFFFF"
+            android:text="@string/kelas"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_email"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_kelas"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:elevation="12dp"
+            android:padding="15dp"
+            android:text="@string/email"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TugasSensor2023AKBIF310120094</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nama">Nama: Tiara Trisanti Ramadhani</string>
+    <string name="kelas">Kelas: IF-3</string>
+    <string name="nim">NIM: 10120094</string>
+    <string name="email">Email: tiara.10120094.@mahasiswa.unikom.ac.id</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
